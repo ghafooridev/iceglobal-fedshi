@@ -1,0 +1,52 @@
+{
+	"general": {
+		"users": "Users",
+		"events": "Events",
+		"eventTypes": "Event Types",
+		"invalidCredential": "Invalid Credential"
+	},
+
+	"login": {
+		"signIn": "Sign In",
+		"email": "Email",
+		"password": "Password",
+		"forgetPassword": "Forgot password",
+		"signUp": "Sign Up",
+		"loading": "Loading"
+	},
+	"events": {
+		"name": "Event Name",
+		"type": "Event Type",
+		"start": "Start Date",
+		"end": "End Date",
+		"active": "Active",
+		"inActive": "InActive",
+		"description": "Event Description",
+		"status": "Status",
+		"list": "Events List",
+		"activeEvents": "Active Events",
+		"pastEvents": "Past Events",
+		"mySubscribedEvents": "My Subscribed Events"
+	},
+	"eventTypes": {
+		"name": "Event Type Name",
+		"list": "Event Types List"
+	},
+	"users": {
+		"name": "Name",
+		"sureName": "sureName",
+		"email": "Email",
+		"password": "Password",
+		"role": "Role",
+		"list": "Users List",
+		"subscribedUsers": "Subscribed Users"
+	},
+	"actions": {
+		"save": "Save",
+		"back": "Back",
+		"delete": "Delete",
+		"add": "Add",
+		"detail": "Detail",
+		"subscribe": "Subscribe"
+	}
+}
