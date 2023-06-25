@@ -10,16 +10,16 @@ const fetchFromApi = async (params: AxiosRequestConfig) => {
 }
 
 const useQueryApi = (key: string, params: AxiosRequestConfig, enabled = true) => {
-	return useQuery({ queryKey: [key], queryFn: () => fetchFromApi(params), enabled, cacheTime: 2000 })
+	return useQuery({ queryKey: [params.url], queryFn: () => fetchFromApi(params), enabled, cacheTime: 10 })
 }
 
 const useMutateApi = (params: AxiosRequestConfig) => {
 	return useMutation(() => fetchFromApi(params), {
 		onSuccess: async () => {
-			if (params.method !== API_METHOD.GET) toast.success("Successful Action")
+			if (params.method !== API_METHOD.GET) toast.success("Post is successfully added")
 		},
 		onError: async () => {
-			if (params.method !== API_METHOD.GET) toast.error("Failed Action")
+			if (params.method !== API_METHOD.GET) toast.error("Failed to add post")
 		}
 	})
 }

@@ -1,5 +1,5 @@
 export const getProperQueryString = (query: any) => {
-	return new URLSearchParams(query).toString()
+	return new URLSearchParams(query)?.toString()
 }
 export const uniqueId = () => {
 	return +new Date()
