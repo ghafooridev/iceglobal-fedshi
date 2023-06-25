@@ -1,7 +1,7 @@
 import { Grid, Icon, Chip, Avatar } from "@mui/material"
-import { useStyles } from "./styles"
 import { PostInterface } from "@/constants/enum"
 import { formatDate } from "@/helpers/utils"
+import { useStyles } from "./styles"
 
 interface Props {
 	post: PostInterface

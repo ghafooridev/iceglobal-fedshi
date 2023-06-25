@@ -69,22 +69,10 @@ we are using some frameworks and third parties in this app and we could refer to
 yarn install
 ```
 
-# Project run client
+# Project run
 
 ```
 yarn dev
-```
-
-# Project run server
-
-```
-yarn server
-```
-
-# Project run client and server together
-
-```
-yarn start
 ```
 
 # Project build for production

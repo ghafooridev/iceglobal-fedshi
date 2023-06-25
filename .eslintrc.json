@@ -43,11 +43,6 @@
 		"@typescript-eslint/no-var-requires": "warn",
 		"@typescript-eslint/no-empty-function": "warn",
 		"prettier/prettier": "off",
-		"import/order": [
-			"error",
-			{
-				"groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"]
-			}
-		]
+		"import/order": ["off"]
 	}
 }
